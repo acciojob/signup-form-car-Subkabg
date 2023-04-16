@@ -10,7 +10,42 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<form method= "POST">
+	<div>
+	<label for="Name">Name*</label>
+		<input type="text" id="name" name="name" placeholder="name" required>
+	<br>
+		<label for="email">E-mail*</label>
+		<input type="email" id="email" name="email" placeholder="email" required>
+		<br>
+		<label for="gender">Gender*</label>
+		<input type="radio" id="gender_m" name=gender value="male" required>
+		<label for="male">Male</label>
+		<input type="radio" id="gender_f" name=gender value="female" required>
+		<label for="female">Female</label>
+		<br>
+		<label for="car">Car Brands*</label>
+		<select id="cars" name="car" required>
+			<option value = "">Choose your car</option>
+			 <option value="BMW">BMW</option>
+             <option value="Audi">Audi</option>
+            <option value="Mercedez">Mercedez</option>
+		</select>
+		<br>
+	<label for="age">Age*</label>
+		<input type="number" id="age" name="age" placeholder="age" required>
+		<br>
+		<label for="dob">DOB*</label>
+		<input type="date" id="dob" name="dob" required>
+		<br>
+		<label for="phone">Phone</label>
+		<input type="tel" id="phone" name="phone" placeholder="phone">
+		<br>
+		<label for="password">Password*</label>
+		<input type="password" id="password" name="password" placeholder="password" required>
+		<br>
+		<input type="checkbox" required> I agree to the TOS <br>
+		<button type="submit" value="submit">Submit
 </body>
 
 </html>
